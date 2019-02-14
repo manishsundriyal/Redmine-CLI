@@ -1,0 +1,30 @@
+{
+  "name": "Redmine-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsundriyal/Redmine-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishsundriyal/Redmine-CLI/issues"
+  },
+  "homepage": "https://github.com/manishsundriyal/Redmine-CLI#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.10"
+  }
+}
