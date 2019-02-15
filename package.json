@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "redmine-cli": "./index.js"
+    "redmine-cli": "./app/index.js"
   },
   "scripts": {
     "start": "nodemon",
