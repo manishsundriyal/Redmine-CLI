@@ -44,4 +44,25 @@ commander
     req.end();
   });
 
+commander
+  .command('create-issue')
+  .alias('ct-i')
+  .description('Create Issue')
+  .action(() => {
+    clear();
+    console.log(chalk.blue('------------'));
+    console.log(chalk.blue('Create Issues Functionality'));
+    console.log(chalk.blue('------------'));
+  });
+
+  commander
+  .command('log-time')
+  .alias('lg-t')
+  .description('Log Time')
+  .action(() => {
+    clear();
+    console.log(chalk.blue('------------'));
+    console.log(chalk.blue('Log Time Functionality'));
+    console.log(chalk.blue('------------'));
+  });
 commander.parse(process.argv);
