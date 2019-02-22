@@ -10,7 +10,7 @@ const headers = {
   "Accept" : "*/*",
   "Proxy-Connection" : "Keep-Alive",
   "Content-Type" : "application/json",
-  "X-Redmine-API-Key" : "a129dc214fa0997f64f606cc8c73f1b8ad755fe5",
+  "X-Redmine-API-Key" : "YOUR API KEY HERE",
 };
 
 const options = {
